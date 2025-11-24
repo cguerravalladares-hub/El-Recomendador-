@@ -3,8 +3,8 @@ import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler, ConversationHandler
 
-TOKEN = os.environ.get("TOKEN")
-ADMIN_USER_ID = int(os.environ.get("ADMIN_USER_ID", "123456789"))
+TOKEN = 8598781833:AAE-k3bezoFbYUoxw6nUbIQj8ye2KbN84Tkos.environ.get("TOKEN")
+ADMIN_USER_ID = 6352160630int(os.environ.get("ADMIN_USER_ID", "123456789"))
 
 logging.basicConfig(level=logging.INFO)
 BOT_NAME, REFERRAL_LINK, DESCRIPTION = range(3)
